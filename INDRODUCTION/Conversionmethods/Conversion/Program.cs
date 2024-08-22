@@ -40,7 +40,23 @@
             Console.WriteLine( str3.GetType());
 
 
-            
+            //parse method
+            string str1 = "123456";
+            int num4 = int.Parse(str1);
+            Console.WriteLine(num4);
+
+
+            ///tryparse method
+            bool sucess=int.TryParse(str1, out  num4);
+            if (sucess)
+            {
+                Console.WriteLine(num4);
+
+            }
+            else
+            {
+                Console.WriteLine("failed");
+            }
              
 
 
