@@ -67,6 +67,9 @@
             Console.WriteLine(test.ToUpper());
             Console.WriteLine(s.ToLower());
 
+           //var number10=Console.ReadLine();
+           // Console.WriteLine(number10);
+
             
             
 
