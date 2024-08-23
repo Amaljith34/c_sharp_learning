@@ -23,9 +23,29 @@
             int length=orginal.Length;
             Console.WriteLine(length);
 
-            //substring
+            //replace
             string newString = orginal.Replace("WORLD", "C#");
             Console.WriteLine(newString);
+
+            //substring
+            string hello = orginal.Substring(0,9);
+            Console.WriteLine(hello);
+
+            //contains
+            bool contanhello=orginal.Contains("l ");
+            Console.WriteLine(contanhello);
+
+
+            //indexof
+            int index = orginal.IndexOf("RLD");
+            Console.WriteLine(index);
+
+            //TRIM
+            string trimmed = orginal.Trim();
+            Console.WriteLine(trimmed);
+
+
+
         }
     }
 }
