@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            PrintPersonalizedMessage("Alice", 25);
+            PrintPersonalizedMessage("jone", 22);
         }
         static void PrintPersonalizedMessage(string name,int age)
         {
