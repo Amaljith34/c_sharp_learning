@@ -43,7 +43,7 @@
 
 
             //ternory operator
-            string ternoryoperator = number2 > number1 ? "2nd number is large" : "1st number is large";
+            string ternoryoperator = number2 > number1 ? "2nd number is large" : "1st number is largest";
             Console.WriteLine(ternoryoperator);
             
             
